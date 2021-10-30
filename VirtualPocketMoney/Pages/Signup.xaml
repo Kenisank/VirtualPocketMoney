@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VirtualPocketMoney.Pages.Signup">
+  <ContentView.Content>
+      <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0">
+                    <Entry Placeholder="Surname FirstName Other" FontSize="16" x:Name="EntryUserFullName"/>
+                </StackLayout>
+                <StackLayout Grid.Row="1">
+                    <Entry Placeholder="Email" FontSize="16" x:Name="EntryUserEmail"/>
+                </StackLayout>
+                <StackLayout Grid.Row="2">
+                    <Entry Placeholder="DoB" FontSize="16" x:Name="EntryUserDoB"/>
+                </StackLayout>
+                <StackLayout Grid.Row="3">
+                    <Entry Placeholder="PhoneNumber" FontSize="16" x:Name="EntryUserPhoneNumber"/>
+                </StackLayout>
+                <StackLayout Grid.Row="4">
+                    <Entry Placeholder="Password" FontSize="16" x:Name="EntryUserPassword"/>
+                </StackLayout>
+                <StackLayout Grid.Row="5">
+                    <Entry Placeholder="ConfirmPassword" FontSize="16" x:Name="EntryUserConfirmPassword"/>
+                </StackLayout>
+                <StackLayout Grid.Row="6">
+                    <Button Text="Register" HorizontalOptions="CenterAndExpand" WidthRequest="100" TextColor="White" BackgroundColor="Blue" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </Grid>
+      </StackLayout>
+  </ContentView.Content>
+</ContentView>
