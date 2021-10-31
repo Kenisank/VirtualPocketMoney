@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VirtualPocketMoney.SignUp" 
+             xmlns:vm="clr-namespace:VirtualPocketMoney.Tables" >
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="20,20,20,20" VerticalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0">
+                    <Entry Placeholder="Surname FirstName Other" FontSize="16" x:Name="EntryUserFullName"/>
+                </StackLayout>
+                <StackLayout Grid.Row="1">
+                    <Entry Placeholder="Email" FontSize="16" x:Name="EntryUserEmail"/>
+                </StackLayout>
+                <StackLayout Grid.Row="2">
+                    <Entry Placeholder="BVN" FontSize="16" x:Name="EntryUserBVN"/>
+                </StackLayout>
+                <StackLayout Grid.Row="3">
+                    <Entry Placeholder="PhoneNumber" FontSize="16" x:Name="EntryUserPhoneNumber"/>
+                </StackLayout>
+                <StackLayout Grid.Row="4">
+                    <Entry Placeholder="Gender" FontSize="16" x:Name="EntryUserGender"/>
+                </StackLayout>
+                <StackLayout Grid.Row="5">
+                    <Entry Placeholder="Password" FontSize="16" x:Name="EntryUserPassword"/>
+                </StackLayout>
+                <StackLayout Grid.Row="6">
+                    <Entry Placeholder="ConfirmPassword" FontSize="16" x:Name="EntryUserConfirmPassword"/>
+                </StackLayout>
+                <StackLayout Grid.Row="7">
+                    <Entry Placeholder="Salutation" FontSize="16" x:Name="EntryUserSalutation"/>
+                </StackLayout>
+                <StackLayout Grid.Row="8">
+                    <Entry Placeholder="APPID" FontSize="16" x:Name="EntryUserAPPID"/>
+                </StackLayout>
+                <StackLayout Grid.Row="9">
+                    <Entry Placeholder="Address" FontSize="16" x:Name="EntryUserAddress"/>
+                </StackLayout>
+                <StackLayout Grid.Row="10">
+                    <Button Text="Register" HorizontalOptions="CenterAndExpand" WidthRequest="100" TextColor="White" BackgroundColor="Blue" Clicked="Button_Clicked"/>
+                </StackLayout>
+
+                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -10,7 +10,7 @@ namespace VirtualPocketMoney
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new SignUp();
         }
 
         protected override void OnStart()
