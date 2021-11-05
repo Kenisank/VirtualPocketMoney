@@ -33,19 +33,17 @@ namespace VirtualPocketMoney.Views
 
             if (_query != null)
             {
-                App.Current.MainPage = new NavigationPage(new HomePage());
+                App.Current.MainPage = new NavigationPage(new IndexPage());
             }
-            else
+            else 
             {
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    var result = await this.DisplayAlert("Error", "Failed User Name and Password", "Yes", "Cancel");
-                    if (result)
-                    {
-                        await Navigation.PushAsync(new LoginPage());
-                    }
-                    else { await Navigation.PushAsync(new LoginPage()); }
+                    var result = await DisplayAlert("Error", "Failed User Name and Password", "Yes", "Cancel");
+                   
+                 
                 });
+                await Navigation.PushAsync(new LoginPage());
             }
 
         }

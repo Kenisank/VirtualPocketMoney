@@ -74,10 +74,10 @@ namespace VirtualPocketMoney.Services
             @"    ""BVN"" : ""22223345665""
 " + "\n" +
             @"}";
-           // var __json = JsonConvert.SerializeObject(body);
-         //   JObject __json = JObject.Parse(body);
+           //va//r __json = JsonConvert.SerializeObject(body);
+           JObject __json = JObject.Parse(body);
 
-            request.AddParameter("application/json", body, ParameterType.RequestBody);
+            request.AddParameter("application/json", __json, ParameterType.RequestBody);
             IRestResponse response =  client.Execute(request);
             //Console.WriteLine(response.Content);
 

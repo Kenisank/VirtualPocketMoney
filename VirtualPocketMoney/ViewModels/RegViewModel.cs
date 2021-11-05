@@ -26,6 +26,8 @@ namespace VirtualPocketMoney.ViewModels
         public string Salutation { get; set; }
         public string Gender { get; set; }
         public string MaritalStatus { get; set; }
+
+        public string Balance { get; set; }
         public string APPID { get; set; }
         public string BVN { get; set; }
         public string Password { get; set; }
@@ -62,7 +64,7 @@ namespace VirtualPocketMoney.ViewModels
                     } 
                     else
                     {
-                        Message = "Retry Later";
+                        Message = "Error, Retry Later";
                     }
 
                 });

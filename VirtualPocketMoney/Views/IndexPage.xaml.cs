@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace VirtualPocketMoney.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HomePage : ContentPage
+    public partial class IndexPage : ContentPage
     {
-        public HomePage()
+        public IndexPage()
         {
             InitializeComponent();
         }
