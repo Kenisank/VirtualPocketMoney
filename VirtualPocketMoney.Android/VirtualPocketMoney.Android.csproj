@@ -86,7 +86,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\barcode.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\VirtualPocketMoney\VirtualPocketMoney.csproj">
       <Project>{FBC5CE77-6988-471A-B5B8-D429AFDA1AAE}</Project>

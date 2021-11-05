@@ -21,14 +21,38 @@
             </Grid.ColumnDefinitions>
 
 
-            <BoxView Grid.Row="0" Grid.ColumnSpan="2" Color="#4dbd6b"/>
-            <BoxView Grid.Row="1" Grid.ColumnSpan="2"  Color="#34a853"/>
-            <BoxView Grid.Row="2" Grid.Column="0" Color="#fcfcfc"/>
-            <BoxView Grid.Row="2" Grid.Column="1" Color="#fcfcfc"/>
-            <BoxView Grid.Row="3" Grid.Column="0" Color="#fcfcfc"/>
-            <BoxView Grid.Row="3" Grid.Column="1" Color="#fcfcfc"/>
+            <BoxView Grid.Row="0" Grid.ColumnSpan="2" BackgroundColor="#4dbd6b"/>
+            <Image Source="barcode.png"/>
+            <Label Grid.Row="0" Grid.ColumnSpan="2" FontSize="Large"
+                  Text="VPN Number: VPM0000123" TextColor="Black" HorizontalOptions="Center" VerticalOptions="End"/>
+            
+            <BoxView Grid.Row="1" Grid.ColumnSpan="2"  BackgroundColor="#34a853"/>
+            <Label Grid.Row="1" Grid.ColumnSpan="2" FontSize="Large"
+                  Text="Welcome, Team Inspire" TextColor="Black"  HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+            
+            <BoxView Grid.Row="2" Grid.Column="0" BackgroundColor="#fcfcfc"/>
+            <Button  Grid.Row="2" Grid.Column="0" 
+                  Text="Fund Account" TextColor="Black"  HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+            
+            <BoxView Grid.Row="2" Grid.Column="1" BackgroundColor="#fcfcfc"/>
+            <Button Grid.Row="2" Grid.Column="1" 
+                  Text="Remit Fund" TextColor="Black"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+            
+            <BoxView Grid.Row="3" Grid.Column="0" BackgroundColor="#fcfcfc"/>
+            <Button  Grid.Row="3" Grid.Column="0"
+                  Text="Transfer Funds" TextColor="Black"  HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+            
+            <BoxView Grid.Row="3" Grid.Column="1" BackgroundColor="#fcfcfc"/>
+            <Button  Grid.Row="3" Grid.Column="1"
+                  Text="Purchase/Pay Bills" TextColor="Black"  HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
 
-
+ 
 
         </Grid>
 
