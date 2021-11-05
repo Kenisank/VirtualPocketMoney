@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPocketMoney.Android"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPocketMoney.iOS", "VirtualPocketMoney.iOS\VirtualPocketMoney.iOS.csproj", "{4CC4FE16-570D-4314-8656-AD719CB492CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualPocketMoney", "VirtualPocketMoney\VirtualPocketMoney.csproj", "{607D4FAB-B02C-4176-A236-B57C489FE4CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualPocketMoney", "VirtualPocketMoney\VirtualPocketMoney.csproj", "{607D4FAB-B02C-4176-A236-B57C489FE4CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

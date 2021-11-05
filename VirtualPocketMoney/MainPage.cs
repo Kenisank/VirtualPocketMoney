@@ -50,6 +50,11 @@ namespace VirtualPocketMoney
                 Text = "Login"
             });
 
+            panel.Children.Add(new Button
+            {
+                Text = "Sign Up"
+            });
+
             this.Content = panel;
         }
 

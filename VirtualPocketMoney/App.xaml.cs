@@ -1,4 +1,5 @@
 ﻿using System;
+using VirtualPocketMoney.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace VirtualPocketMoney
         {
             InitializeComponent();
 
-            MainPage = new SignUp();
+            MainPage = new RegPage();
         }
 
         protected override void OnStart()
